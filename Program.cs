@@ -1,4 +1,5 @@
-﻿using System;
+using System;
+using Humanizer;
 
 namespace NumeralExtenso
 {
@@ -9,7 +10,7 @@ namespace NumeralExtenso
             Console.WriteLine("Olá usuário, irei lhe ajudar a converter seu número para extenso");
             Console.WriteLine("Pressione uma tecla para continuar...");
             Console.ReadKey();
-
+            Console.Write("\n\n Digite um número: ");
              int Extenso = Convert.ToInt32(Console.ReadLine());
 
             // int quer dizer que estaremos trabalhando com um número inteiro
